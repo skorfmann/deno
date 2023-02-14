@@ -8,9 +8,9 @@ use deno_core::futures::FutureExt;
 use deno_core::resolve_url_or_path;
 use deno_runtime::colors;
 
-use crate::args::BundleFlags;
+pub use crate::args::BundleFlags;
 use crate::args::CliOptions;
-use crate::args::Flags;
+pub use crate::args::Flags;
 use crate::args::TsConfigType;
 use crate::args::TypeCheckMode;
 use crate::graph_util::create_graph_and_maybe_check;
